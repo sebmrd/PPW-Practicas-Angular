@@ -6,7 +6,10 @@ import { Component } from '@angular/core';
     <section>
       <h1>PPW Angular 21</h1>
       <p>Proyecto incremental listo para crecer.</p>
+      
+      <!-- Aquí agregamos el enlace hacia la nueva feature -->
+      <a href="/profile" style="display: inline-block; margin-top: 10px; color: blue;">Ir a mi Perfil</a>
     </section>
   `
 })
-export class HomePage {}
+export class HomePage {};
